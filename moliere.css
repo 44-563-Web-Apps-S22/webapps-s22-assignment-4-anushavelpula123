@@ -1,0 +1,108 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;s
+    padding: 15px;
+    margin: 10px 6px 5px 6px;
+  }
+  table{
+    border-spacing: 20px;
+  }
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  tr:hover {
+      background-color: #6ba85c;
+      color: white;sn
+    }  
+    td:hover{
+        color:#fff;
+    }
+  th{
+      text-align: left;
+  }  
+  td{
+      color:rgb(250, 191, 135);
+  }
+  /*End of Style the table */
+  a{
+      text-decoration: none;
+  }
+  a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#bg{
+    background-color: gray;
+  }
+
+  /* Style the char class */
+.CHRY{
+    color:seagreen;
+    font-family: 'Poppins', sans-serif;
+}
+.ARI{
+
+    color:deepskyblue;
+    font-family: 'Redressed', cursive;
+}
+.ARI:hover{
+  color: #deb887;
+  text-shadow: 2px 2px #ff0000;
+  border: 1px solid #ff0000;
+}
+.BEL{
+    color: chocolate;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*End of Style the char class */
+
+/*start of Style the speech class */
+.speech{
+    font-family: Courier;
+    font-size: 15px;
+    color: black;
+}
+/*End of Style the speech class */
+/* Style the direction class */
+.direction{
+    font-family: Courier;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(150 150 150);
+
+}
+.direction:hover{
+    font-family: 'Courier Prime', monospace;
+    color: #2196f3;
+    background-color: #ffeb3b;
+
+}
+
+/*End of Style the direction class */
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgb(50, 126, 177);
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(187, 161, 161);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+ .navbar a:nth-child(2){
+    float: right !important;
+}
